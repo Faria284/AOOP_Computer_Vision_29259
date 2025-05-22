@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Carrega o modelo
-model = YOLO("models/best.pt")
+model = YOLO("runs/detect/train2/weights/best.pt")
 
 st.title("Deteção de EPI")
 st.markdown("Faça upload de uma imagem ou vídeo para verificar a presença de equipamentos de proteção individual (EPI).")
@@ -65,7 +65,7 @@ elif tipo_input == "Vídeo":
                 break
 
             # Corre deteção
-            results = model(frame, conf=0.3)[0]
+            results = model(frame, conf=0.2)[0]
             annotated = results.plot()
 
             # Converte para RGB para Streamlit

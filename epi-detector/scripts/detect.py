@@ -11,7 +11,7 @@ if not os.path.exists(image_path):
     exit(1)
 
 # Carrega o modelo treinado
-model = YOLO("models/best.pt")
+model = YOLO("runs/detect/train2/weights/best.pt")
 
 # Lê a imagem
 img = cv2.imread(image_path)

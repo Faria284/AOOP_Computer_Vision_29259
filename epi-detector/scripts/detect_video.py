@@ -13,7 +13,7 @@ elif not os.path.exists(video_path):
     exit(1)
 
 # Carrega o modelo
-model = YOLO("models/best.pt")
+model = YOLO("runs/detect/train2/weights/best.pt")
 
 # Abre o vídeo
 cap = cv2.VideoCapture(video_path)
@@ -28,7 +28,7 @@ while True:
         break
 
     # Corre deteção com threshold de confiança
-    results = model(frame, conf=0.25)[0]
+    results = model(frame, conf=0.2)[0]
     annotated = results.plot()
 
     # Mostra o frame com as deteções
