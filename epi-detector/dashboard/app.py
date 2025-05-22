@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Carrega o modelo
-model = YOLO("runs/detect/train2/weights/best.pt")
+model = YOLO("runs/detect/train3/weights/best.pt")
 
 st.title("Deteção de EPI")
 st.markdown("Faça upload de uma imagem ou vídeo para verificar a presença de equipamentos de proteção individual (EPI).")

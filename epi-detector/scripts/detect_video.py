@@ -13,7 +13,7 @@ elif not os.path.exists(video_path):
     exit(1)
 
 # Carrega o modelo
-model = YOLO("runs/detect/train2/weights/best.pt")
+model = YOLO("runs/detect/train3/weights/best.pt")
 
 # Abre o vídeo
 cap = cv2.VideoCapture(video_path)

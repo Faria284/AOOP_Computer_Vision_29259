@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Diogo/Desktop/Ano_Letivo_24_25/AOOP/AOOP_Computer_Vision_29259/epi-detector/runs/mlflow/797799910972457419/0d82f66560ad40a7be322a9ac38d5de7/artifacts
+end_time: 1747940123849
+entry_point_name: ''
+experiment_id: '797799910972457419'
+lifecycle_stage: active
+run_id: 0d82f66560ad40a7be322a9ac38d5de7
+run_name: train3
+run_uuid: 0d82f66560ad40a7be322a9ac38d5de7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747902544766
+status: 3
+tags: []
+user_id: Diogo
