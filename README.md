@@ -43,21 +43,6 @@ streamlit run dashboard/app.py
 
 ---
 
-## Estrutura do Projeto
-
-epi-detector/
-├── data/              # Imagens, vídeos e dataset YOLO
-├── models/            # Modelo YOLOv8 treinado (best.pt)
-├── scripts/           # Scripts de deteção
-│   ├── detect.py
-│   └── detect_video.py
-├── dashboard/         # Aplicação Streamlit
-│   └── app.py
-├── requirements.txt   # Dependências
-└── README.md
-
----
-
 ## Dataset
 
 Utilizado um dataset público da Roboflow (https://universe.roboflow.com/project-uyrxf/ppe_detection-v1x3l/dataset/2) com as seguintes classes:
